@@ -27,6 +27,5 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "존재하지 않는 사용자입니다...", Toast.LENGTH_SHORT).show()
             }
         }
-
     }
 }
