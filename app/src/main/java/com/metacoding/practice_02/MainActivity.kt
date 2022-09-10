@@ -15,12 +15,14 @@ class MainActivity : AppCompatActivity() {
             val pw_str = pwTxt.text.toString()
 
             if(id_str.equals("jhe93@naver.com") ){
+
                 if(pw_str.equals("1234")) {
                     Toast.makeText(this, "관리자입니다.", Toast.LENGTH_SHORT).show()
                 }else{
                     Toast.makeText(this, "로그인에 실패하였습니다.", Toast.LENGTH_SHORT).show()
                 }
             }else{
+
                 Toast.makeText(this, "존재하지 않는 사용자입니다...", Toast.LENGTH_SHORT).show()
             }
         }
