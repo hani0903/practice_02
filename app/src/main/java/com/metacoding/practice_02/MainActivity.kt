@@ -16,8 +16,10 @@ class MainActivity : AppCompatActivity() {
 
             if(id_str.equals("jhe93@naver.com") ){
 
+                val name = "조하은"
+
                 if(pw_str.equals("1234")) {
-                    Toast.makeText(this, "관리자입니다.", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "${name}님 환영합니다.", Toast.LENGTH_SHORT).show()
                 }else{
 
                     Toast.makeText(this, "로그인에 실패하였습니다.", Toast.LENGTH_SHORT).show()
